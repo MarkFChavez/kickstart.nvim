@@ -138,6 +138,8 @@ vim.opt.timeoutlen = 300
 -- Configure how new splits should be opened
 vim.opt.splitright = true
 vim.opt.splitbelow = true
+vim.keymap.set('n', 'ss', ':split<cr>', { desc = 'Horizontal split' })
+vim.keymap.set('n', 'vv', ':vsplit<cr>', { desc = 'Vertical split' })
 
 -- Sets how neovim will display certain whitespace characters in the editor.
 --  See `:help 'list'`
