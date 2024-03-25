@@ -141,6 +141,8 @@ vim.opt.splitbelow = true
 vim.keymap.set('n', 'ss', ':split<cr>', { desc = 'Horizontal split' })
 vim.keymap.set('n', 'vv', ':vsplit<cr>', { desc = 'Vertical split' })
 
+vim.keymap.set('n', '<leader>qq', ':qa<cr>', { desc = 'Close neovim' })
+
 -- Sets how neovim will display certain whitespace characters in the editor.
 --  See `:help 'list'`
 --  and `:help 'listchars'`
